@@ -1,0 +1,41 @@
+# ============================
+#  Hostel Management System
+#  .gitignore
+# ============================
+
+# --- Student Uploads (contains Aadhaar images — never commit PII) ---
+uploads/
+
+# --- API response cache ---
+cache/
+
+# --- Environment / secrets (if you add .env later) ---
+.env
+.env.local
+.env.*.local
+
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- PHP logs ---
+*.log
+php_errors.log
+
+# --- Composer (if added later) ---
+/vendor/
+composer.lock
